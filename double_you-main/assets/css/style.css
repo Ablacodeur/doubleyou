@@ -19,8 +19,9 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 15vh;
+    height: 10vh;
     align-items: center;
+    margin-bottom: 20px;
 }
 header li{
     list-style: none;
@@ -108,4 +109,41 @@ button{
 
 .attribution{
     margin-top: 50px;
+}
+
+/* mobile session queries */
+@media all and (max-width: 375px){
+    #first{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bannier img{
+       width: auto;
+       box-sizing: border-box;
+       height: 20vh;
+    }
+    
+    .comment{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    #second{
+        display: flex;
+        flex-direction: column;
+    }
+    .revolution img{
+        width: 150px;
+        height: 200px;
+    }
+
+    aside{
+        margin-left: 0;
+    }
+    .logo{
+        font-size: 40px;
+    }
+   
 }
