@@ -37,9 +37,6 @@ Hello  everyone 👋,am back with a new simple challenge that i have done,this c
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
 
 ```html
 .proud-of-this-html {
@@ -89,3 +86,5 @@ To see how you can add code snippets, see below:
 I have start this challenge with 
 - Website - [Samuel](https://github.com/kodjozecodeur)
 
+
+### See you guys 👋 👋 👋
