@@ -1,4 +1,4 @@
-# Ablacodeur - News homepage solution
+# Ablacodeur - News homepage solution 🚀
 
 ## Table of contents
 
@@ -13,7 +13,7 @@
 
 
 ## Overview
-Hello everyone,am back with a new simple challenge that i have done,this challenge help me to improve my css and javascript skills ... let me show ....TADAAAAAAM
+Hello  everyone 👋,am back with a new simple challenge that i have done,this challenge help me to improve my css and javascript skills ... let me show ....TADAAAAAAM
 
 ### Screenshot
 
@@ -22,8 +22,8 @@ Hello everyone,am back with a new simple challenge that i have done,this challen
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Ablacodeur/doubleyou)
-- Live Site URL: [Add live site URL here](https://ablacodeur.github.io/doubleyou/)
+- Solution URL: [https://github.com/Ablacodeur/doubleyou]
+- Live Site URL: [https://ablacodeur.github.io/doubleyou]
 
 ## My process
 
@@ -42,26 +42,28 @@ Use this section to recap over some of your major learnings while working throug
 To see how you can add code snippets, see below:
 
 ```html
-<aside>
-        <span class="yellow">New</span>
-        <h3>Lorem ipsum dolorem</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          adipisicing elit adipisicing elit adipisicing elit adipisicing elit
-          adipisicing elit <br> <br>
-        <hr>
-        </p>
+.proud-of-this-html {
+  <aside>
+          <span class="yellow">New</span>
+          <h3>Lorem ipsum dolorem</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            adipisicing elit adipisicing elit adipisicing elit adipisicing elit
+            adipisicing elit <br> <br>
+          <hr>
+          </p>
 
-        <h3>Lorem ipsum dolorem</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-          adipisicing elit adipisicing elit adipisicing elit adipisicing elit adipisicing elit <br> <br>
-        <hr>
-        </p>
+          <h3>Lorem ipsum dolorem</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            adipisicing elit adipisicing elit adipisicing elit adipisicing elit adipisicing elit <br> <br>
+          <hr>
+          </p>
 
-        <h3>Lorem ipsum dolorem</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-          adipisicing elit adipisicing elit adipisicing elit adipisicing elit adipisicing elit <br> 
-        </p>
-</aside>
+          <h3>Lorem ipsum dolorem</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            adipisicing elit adipisicing elit adipisicing elit adipisicing elit adipisicing elit <br> 
+          </p>
+  </aside>
+}
 ```
 ```css
 .proud-of-this-css {
@@ -75,7 +77,7 @@ To see how you can add code snippets, see below:
 
 ### Useful resources
 
-- [Example resource 1](https://codepen.io/abdosteif/pen/bRoyMb) - This helped me for my toggle nav. 
+- [https://codepen.io/abdosteif/pen/bRoyMb]- This helped me for my toggle nav. 
 ## Author
 
 - Website - [Ablacodeur](https://github.com/Ablacodeur)
