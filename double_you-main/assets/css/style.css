@@ -212,7 +212,7 @@ button{
 }
 
 /* mobile session queries */
-@media all and (max-width: 768px){
+@media all and (width: 375px){
     *{
         margin-left: 2px;
         margin-right: 2px;
@@ -226,8 +226,8 @@ button{
     } 
     .bannier_mob{
        display: flex;
-       width: 100%;
-       height: 45.5vh;
+       width: 100%;    
+       height: 45.6vh;
        margin-top: 20px;
     }
     .nav div.logo a{
@@ -239,7 +239,6 @@ button{
         flex-direction: column;
         align-items: start;
         margin-left: -5px;
-       
     }
 
     #second{
@@ -266,6 +265,9 @@ button{
     .logo{
         font-size: 40px;
     }
+    .nav{
+        margin-left: 2px;
+    }
     /* toggle */
 
     .container{
@@ -273,40 +275,447 @@ button{
     }
      
     .nav div.main_list{
-        width: 100%;
+        width: 90%;
         margin-top: 65px;
         height: 0px;
         overflow: hidden;
+        margin-left: 5%;
     }
     .nav div.show_list{
-        height: 200px;
+        height: 700px;
+        position: absolute !important;
     }
     
     .nav div.main_list ul{
         flex-direction: column;
-        width: 80%;
-        height: 200px;
-        top: 80px;
-        right: 0;
-        left: 0;
-        /* opacity: 0.4; */
+        width: 50%;
+        height: 500px;
+        background-color: white;
+        margin-left: 50%;
+        margin-top: 20px;
     }
     
     .nav div.main_list ul li{
         width: 100%;
         height: 40px;
-        background-color: beige;
-        color: black;
-       
+        margin-top: 20px;
     }
     .nav div.main_list ul li a{
           text-align: center;
-          line-height: 40px;
-          width: 100%;
+          line-height: 80px;
+          width: 50%;
           height: 40px;
           display: table;
+          color: black;
       }
       .nav div.media_button{
         display: block;
     }
 }
+
+@media all and (width: 414px){
+    *{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #first{
+        display: flex;
+        flex-direction: column;
+    }
+    .bannier img{
+        display: none;
+    } 
+    .bannier_mob{
+        display: flex;
+        width: 100%;    
+        height: 37.8vh;
+        margin-top: 20px;
+     }
+    .nav div.logo a{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: -5px;
+    }
+
+    #second{
+        display: flex;
+        flex-direction: column;
+    }
+    .revolution img{
+        width: 150px;
+        height: 200px;
+    }
+    .revolution{
+        padding-left: 0px;
+    }
+    .comment button{
+        padding-left: 0px;
+        margin-left: -1px;
+    }
+
+    aside{
+        margin-left: 0;
+        margin-top: 0px;
+        box-sizing: none;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .nav{
+        margin-left: 2px;
+    }
+    /* toggle */
+
+    .container{
+        margin: 0;
+    }
+     
+    .nav div.main_list{
+        width: 90%;
+        margin-top: 65px;
+        height: 0px;
+        overflow: hidden;
+        margin-left: 5%;
+    }
+    .nav div.show_list{
+        height: 700px;
+        position: absolute !important;
+    }
+    
+    .nav div.main_list ul{
+        flex-direction: column;
+        width: 50%;
+        height: 500px;
+        background-color: white;
+        margin-left: 50%;
+        margin-top: 20px;
+    }
+    
+    .nav div.main_list ul li{
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .nav div.main_list ul li a{
+          text-align: center;
+          line-height: 80px;
+          width: 50%;
+          height: 40px;
+          display: table;
+          color: black;
+      }
+      .nav div.media_button{
+        display: block;
+    }
+}
+
+
+
+@media all and (width: 393px){
+    *{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #first{
+        display: flex;
+        flex-direction: column;
+    }
+    .bannier img{
+        display: none;
+    } 
+    .bannier_mob{
+        display: flex;
+        width: 100%;    
+        height: 37.5vh;
+        margin-top: 20px;
+     }
+    .nav div.logo a{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: -5px;
+    }
+
+    #second{
+        display: flex;
+        flex-direction: column;
+    }
+    .revolution img{
+        width: 150px;
+        height: 200px;
+    }
+    .revolution{
+        padding-left: 0px;
+    }
+    .comment button{
+        padding-left: 0px;
+        margin-left: -1px;
+    }
+
+    aside{
+        margin-left: 0;
+        margin-top: 0px;
+        box-sizing: none;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .nav{
+        margin-left: 2px;
+    }
+    /* toggle */
+
+    .container{
+        margin: 0;
+    }
+     
+    .nav div.main_list{
+        width: 90%;
+        margin-top: 65px;
+        height: 0px;
+        overflow: hidden;
+        margin-left: 5%;
+    }
+    .nav div.show_list{
+        height: 700px;
+        position: absolute !important;
+    }
+    
+    .nav div.main_list ul{
+        flex-direction: column;
+        width: 50%;
+        height: 500px;
+        background-color: white;
+        margin-left: 50%;
+        margin-top: 20px;
+    }
+    
+    .nav div.main_list ul li{
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .nav div.main_list ul li a{
+          text-align: center;
+          line-height: 80px;
+          width: 50%;
+          height: 40px;
+          display: table;
+          color: black;
+      }
+      .nav div.media_button{
+        display: block;
+    }
+}
+
+@media all and (width: 360px){
+    *{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #first{
+        display: flex;
+        flex-direction: column;
+    }
+    .bannier img{
+        display: none;
+    } 
+    .bannier_mob{
+        display: flex;
+        width: 100%;    
+        height: 39vh;
+        margin-top: 20px;
+     }
+    .nav div.logo a{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: -5px;
+    }
+
+    #second{
+        display: flex;
+        flex-direction: column;
+    }
+    .revolution img{
+        width: 150px;
+        height: 200px;
+    }
+    .revolution{
+        padding-left: 0px;
+    }
+    .comment button{
+        padding-left: 0px;
+        margin-left: -1px;
+    }
+
+    aside{
+        margin-left: 0;
+        margin-top: 0px;
+        box-sizing: none;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .nav{
+        margin-left: 2px;
+    }
+    /* toggle */
+
+    .container{
+        margin: 0;
+    }
+     
+    .nav div.main_list{
+        width: 90%;
+        margin-top: 65px;
+        height: 0px;
+        overflow: hidden;
+        margin-left: 5%;
+    }
+    .nav div.show_list{
+        height: 700px;
+        position: absolute !important;
+    }
+    
+    .nav div.main_list ul{
+        flex-direction: column;
+        width: 50%;
+        height: 500px;
+        background-color: white;
+        margin-left: 50%;
+        margin-top: 20px;
+    }
+    
+    .nav div.main_list ul li{
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .nav div.main_list ul li a{
+          text-align: center;
+          line-height: 80px;
+          width: 50%;
+          height: 40px;
+          display: table;
+          color: black;
+      }
+      .nav div.media_button{
+        display: block;
+    }
+}
+
+@media all and (width: 390px){
+    *{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    #first{
+        display: flex;
+        flex-direction: column;
+    }
+    .bannier img{
+        display: none;
+    } 
+    .bannier_mob{
+        display: flex;
+        width: 100%;    
+        height: 37.5vh;
+        margin-top: 20px;
+     }
+    .nav div.logo a{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-left: -5px;
+    }
+
+    #second{
+        display: flex;
+        flex-direction: column;
+    }
+    .revolution img{
+        width: 150px;
+        height: 200px;
+    }
+    .revolution{
+        padding-left: 0px;
+    }
+    .comment button{
+        padding-left: 0px;
+        margin-left: -1px;
+    }
+
+    aside{
+        margin-left: 0;
+        margin-top: 0px;
+        box-sizing: none;
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .nav{
+        margin-left: 2px;
+    }
+    /* toggle */
+
+    .container{
+        margin: 0;
+    }
+     
+    .nav div.main_list{
+        width: 90%;
+        margin-top: 65px;
+        height: 0px;
+        overflow: hidden;
+        margin-left: 5%;
+    }
+    .nav div.show_list{
+        height: 700px;
+        position: absolute !important;
+    }
+    
+    .nav div.main_list ul{
+        flex-direction: column;
+        width: 50%;
+        height: 500px;
+        background-color: white;
+        margin-left: 50%;
+        margin-top: 20px;
+    }
+    
+    .nav div.main_list ul li{
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+    }
+    .nav div.main_list ul li a{
+          text-align: center;
+          line-height: 80px;
+          width: 50%;
+          height: 40px;
+          display: table;
+          color: black;
+      }
+      .nav div.media_button{
+        display: block;
+    }
+}
+
